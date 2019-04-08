@@ -240,6 +240,19 @@
 			}
 		}
 	}
+	#getInTouch{
+		.touchMethod {
+			i{
+				font-size: 44px !important;
+			}
+			div{
+				font-size: 14px !important;
+			}
+		}
+		.socIcon{
+			font-size: 18px !important;
+		}
+	}
 }
 @media screen and (max-width: 991.5px){
 	#whoWeAre .squareBlack{
@@ -357,6 +370,19 @@
 			}
 		}
 	}
+	#getInTouch{
+		.touchMethod {
+			i{
+				font-size: 34px !important;
+			}
+			div{
+				font-size: 12px !important;
+			}
+		}
+		.socIcon{
+			font-size: 15px !important;
+		}
+	}
 }
 @media screen and (max-width: 770px){
 	#clientSays {
@@ -380,6 +406,21 @@
 				}
 				footer{
 					font-size: 14px !important;
+				}
+			}
+		}
+	}
+	#getInTouch{
+		.touchMethod {
+			i{
+				font-size: 27px !important;
+			}
+		}
+		.socIcon{
+			font-size: 12px !important;
+			div{
+				i{
+					margin-right: 30px !important;
 				}
 			}
 		}
@@ -459,6 +500,16 @@
 				.downCap{
 					width: 80px !important;
 				}
+			}
+		}
+	}
+	#getInTouch{
+		.touchMethod {
+			i{
+				font-size: 20px !important;
+			}
+			div{
+				font-size: 10px !important;
 			}
 		}
 	}
@@ -1110,6 +1161,7 @@ footer{
 				width: 200px;
 				font-size: 17px;
 				font-family: OpenSans;
+				padding: 10px;
 			}
 		}
 		.socIcon{
@@ -1121,6 +1173,10 @@ footer{
 				padding-bottom: 10px;
 				i{
 					margin-right: 60px;
+					&:hover{
+						cursor: pointer;
+						color: cadetblue;
+					}
 				}
 			}
 			p{
